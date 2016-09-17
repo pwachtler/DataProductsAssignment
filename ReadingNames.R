@@ -34,24 +34,3 @@ colnames(babyNames)<-c("name","sex","count","year")
 
 setwd(currentwd)
 write.csv(babyNames,"babyNames.txt",row.names = FALSE)
-
-# 
-# mostPopularBabyNames<-aggregate(babyNames$count, by=list(babyNames$name,babyNames$sex), FUN=sum)
-# colnames(mostPopularBabyNames)<-c("name","sex","count")
-# 
-# ##Calculate most popular baby names of all time, both genders
-# mostPopularBabyNames<-mostPopularBabyNames[order(-mostPopularBabyNames$count),]
-# 
-# 
-# 
-# ##Calculate most popular baby names of all time, male
-# head(mostPopularBabyNames[which(mostPopularBabyNames$sex=="M"),])
-# 
-# ##Calculate most popular baby names of all time, female
-# head(mostPopularBabyNames[which(mostPopularBabyNames$sex=="F"),])
-# 
-# ##Calculate most popular baby names of all time, male and start with letter "P"
-# head(mostPopularBabyNames[which(mostPopularBabyNames$sex=="M" & substr(mostPopularBabyNames$name,1,1)=="P"),])
-# 
-# ##Calculate most popular baby names of 1986, male that starts with the letter "P"
-# head(babyNames[which(babyNames$sex=="M" & babyNames$year==1986 & substr(babyNames$name,1,1)=="P"),])
