@@ -8,4 +8,4 @@ I created the ReadingNames.R script to read all of the baby name data and load i
 
 My app can be found here: https://paulw.shinyapps.io/Shiny_App/
 
-IMPORTANT: Please note that it may take a few seconds for the data table in the app to load and is dependent on your connection speed
+IMPORTANT: Please note that when running my app it may take a few seconds for the data table in the app to load and is dependent on your connection speed
