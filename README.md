@@ -7,3 +7,5 @@ My app uses data from the Social Security Administration on the most popular bab
 I created the ReadingNames.R script to read all of the baby name data and load it into a single .txt file (babyNames.txt), which is used as the main data source for my app.
 
 My app can be found here: https://paulw.shinyapps.io/Shiny_App/
+
+IMPORTANT: Please note that it may take a few seconds for the data table in the app to load and is dependent on your connection speed
